@@ -1,5 +1,3 @@
-# <img src="" alt="insignia alura" type="image/png" width=70 height=70 />E-Comerce-Alura-Challenge-Oracle-Next-Education-
-
 ### E-Comerce - Programa One Oracle Next Education
 
 :v: Los invito a dar un vistazo a esta demostracion del repositorio y no se olviden escribir cualquier duda o comentario.
