@@ -1,0 +1,41 @@
+.section__add-Products {
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+}
+
+.section__add-Products___button {
+    width: 100%;
+}
+
+
+/*Responsive Desing*/
+
+
+/*Tablet or Ipad*/
+
+@media (max-width: 820px) {
+    .section__add-Products {
+        width: 90%;
+    }
+    .btn-adm {
+        width: 20%;
+        margin: 2%;
+    }
+}
+
+
+/*Iphone or Smartphone*/
+
+@media(max-width:500px) {
+    .btn-adm {
+        font-size: 90%;
+        width: 42%;
+    }
+}
+
+
+/*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/

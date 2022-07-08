@@ -1,0 +1,80 @@
+/*Transition for slider*/
+
+@keyframes fading {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    96% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.section__banner {
+    animation: fading 7s infinite;
+    margin-bottom: 1rem;
+    height: 60vh;
+    width: 100%;
+}
+
+.section__banner .section__banner___about {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    height: 99%;
+    justify-content: flex-end;
+    margin: auto;
+    padding: 1%;
+    width: 99%;
+}
+
+.section__banner .section__banner___about__h2,
+.section__banner .section__banner___about__p {
+    color: var(--background-primary);
+    font-weight: 900;
+}
+
+.section__baner___content {
+    margin: 0 0 2% 8%;
+}
+
+
+/*Responsive Desing*/
+
+
+/*Tablet or Ipad*/
+
+@media (max-width: 820px) {
+    .section__banner {
+        height: 30vh;
+    }
+}
+
+
+/*Iphone or Smartphone*/
+
+@media(max-width:500px) {
+    .section__banner {
+        height: 40vh;
+    }
+    .section__baner___content {
+        margin: 0 0 1% 6%;
+    }
+}
+
+
+/*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/
