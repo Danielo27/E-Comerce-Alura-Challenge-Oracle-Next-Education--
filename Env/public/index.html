@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es-Co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/banner.css">
+    <link rel="stylesheet" href="./assets/css/main/carrousel.css">
+    <link rel="stylesheet" href="./assets/css/footer/form__contact.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+    <!---Header--->
+    <header class="container">
+        <nav class="container___nav">
+            <p class="container__nav___logo">
+                <img src="./assets/img/control.svg" alt="logo-alura-geek"> Digital<span>Quality</span>
+            </p>
+            <div class="container__nav___searchInput">
+                <input class="nav__searchInput___input" type="text" placeholder="¿Que deseas Buscar?" name="search">
+                <a id="btnSearch" class="nav__searchInput___submit"><img src="./assets/img/search.svg" alt="search-icon"></a>
+            </div>
+            <a href="./login.html" class="btn btn-primary">Login</a>
+        </nav>
+    </header>
+    <!---Main section-->
+    <main>
+        <!---Banner--->
+        <section class="container-full">
+            <div class="section__banner" style="background:url(./assets/img/banner.jpg);background-repeat: no-repeat; background-position: center;background-size:cover;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">¡Octubre de Promociones!</h2>
+                        <p class="section__banner___about__p">Compra estos increibles juegos con un 25% de descuento</p>
+                        <a href="view__All.html?genres=juegos" class="btn btn-secondary">Ver Juegos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__banner" style="background:url(./assets/img/banner__2.jpg);background-repeat: no-repeat; background-position: center;background-size:cover; display: none;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">Lleva Estas Increibles Consolas</h2>
+                        <p class="section__banner___about__p">Todas estas Consolas que poseen increibles catalogos de juegos</p>
+                        <a href="view__All.html?genres=consolas" class="btn btn-secondary">Ver Consolas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="section__banner" style="background:url(./assets/img/banner__3.jpg);background-repeat: no-repeat; background-position: center;background-size:cover; display: none;">
+                <div class="section__banner___about">
+                    <div class="section__baner___content">
+                        <h2 class="section__banner___about__h2">Increibles Accesorios </h2>
+                        <p class="section__banner___about__p">Excelentes Accesorios Para Tus Consolas y equipos de computo</p>
+                        <a href="view__All.html?genres=accesorios" class="btn btn-secondary">Ver Accesorios</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Carrousel--->
+        <div id="articles__carrousel">
+            <!---Articles Here--->
+        </div>
+    </main>
+    <!---Footer--->
+    <footer class="container-full">
+        <div class="div__footer">
+            <div class="div__footer___information">
+                <div class="div__footer___content">
+                    <p class="container__nav___logo">
+                        <img src="./assets/img/control.svg" alt="logo-alura-geek"> Digital<span>Quality</span>
+                    </p>
+                    <div class="div__footer___contact">
+                        <a href="">Quienes Somos</a>
+                        <a href="">Politicas de Privacidad</a>
+                        <a href="">Programa de Fidelidad</a>
+                        <a href="">Nuestras Tiendas</a>
+                        <a href="">Quiero ser franquiciado</a>
+                        <a href="">Anuncie Aqui</a>
+                    </div>
+                </div>
+                <div class="div__footer___form">
+                    <h3>Hable con nosotros</h3>
+                    <div class="div__footer___input">
+                        <label for="name">Nombre </label>
+                        <input class="input__verification" type="text" name="name" required>
+                    </div>
+                    <div class="div__footer___input">
+                        <label for="message">Escribe Tu Mensaje </label>
+                        <textarea class="input__verification" name="message" required></textarea>
+                    </div>
+                    <button class="btn btn-secondary" id="formContactSubmit">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div class="div__footer___copyright">
+            <p>Desarrollado por Daniel Quintero Henriquez</p>
+            <small>
+                Todos los derechos reservados 2022
+            </small>
+        </div>
+    </footer>
+    <script src="./lib/validateForm.js"></script>
+    <script src="./lib/slider.js"></script>
+    <script src="./lib/searchInput.js"></script>
+    <script type="module" src="./Controllers/indexController.js"></script>
+    <script type="module" src="./Controllers/formContactController.js"></script>
+</body>
+<!--/*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/-->
+
+</html>

@@ -1,0 +1,140 @@
+    /*Carrousel Articles*/
+    
+    .carrousel__articles {
+        margin: auto;
+        padding: 1rem;
+        width: 85%;
+        overflow: hidden;
+    }
+    
+    .carrousel__articles___post {
+        align-items: center;
+        display: flex;
+        /*justify-content: space-between;*/
+    }
+    
+    .carrousel__articles___post .carrousel__articles___item {
+        background: var(--background-primary);
+        border-radius: 5px;
+        margin: 1%;
+        line-height: .75em;
+        overflow: hidden;
+        padding: 0 0 .75rem 0;
+        text-align: center;
+        width: 14%;
+    }
+    /*other styles of carrousel*/
+    
+    .carrousel__articles .carrousel__articles___title {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .carrousel__articles .carrousel__articles___title__h3 {
+        color: var(--secondary-color);
+        font-weight: 900;
+    }
+    
+    .carrousel__articles___link {
+        color: var(--primary-color);
+        margin-bottom: 1em;
+        text-decoration: none;
+        outline: none;
+    }
+    
+    .carrousel__articles___link:hover {
+        color: var(--secondary-color);
+    }
+    
+    .carrousel__articles___post .carrousel__articles___item:hover {
+        transform: scale(1.1);
+    }
+    
+    .carrousel__articles___post .carrousel__articles___item__img {
+        height: 15vh;
+        object-fit: cover;
+        width: 100%;
+    }
+    /*Admin Section CRUD*/
+    
+    .add__products .carrousel__articles___post .carrousel__articles___item:hover {
+        transform: none;
+    }
+    
+    .add__products .carrousel__articles___post {
+        flex-wrap: wrap;
+    }
+    
+    .edit__item___btn-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .edit__item___btn-container .edit__item___btn-content {
+        display: flex;
+        justify-content: space-between;
+        padding: .75rem;
+        position: absolute;
+        width: 6%;
+    }
+    /*Responsive Desing*/
+    /*Tablet or Ipad*/
+    
+    @media (max-width: 820px) {
+        .add__products .carrousel__articles___title button {
+            width: 25%;
+        }
+        .carrousel__articles___post {
+            justify-content: left;
+        }
+        .carrousel__articles___post .carrousel__articles___item {
+            width: 23%;
+        }
+        .carrousel__articles___post :nth-child(5),
+        .carrousel__articles___post :nth-child(6) {
+            display: none;
+        }
+        .carrousel__articles___post .carrousel__articles___item__img {
+            height: 10vh;
+        }
+        .edit__item___btn-container .edit__item___btn-content {
+            width: 10%;
+        }
+    }
+    /*Iphone or Smartphone*/
+    
+    @media (max-width:500px) {
+        .add__products .carrousel__articles___title {
+            flex-wrap: wrap;
+        }
+        .add__products .carrousel__articles___title__h3 {
+            width: 100%;
+        }
+        .add__products .carrousel__articles___title__button {
+            margin: 3% 0 3% 0;
+            width: 50%;
+        }
+        .carrousel__articles {
+            margin: 1%;
+            padding: 0%;
+            width: 99%;
+        }
+        .carrousel__articles___post .carrousel__articles___item {
+            width: 47%;
+        }
+        .carrousel__articles___post {
+            flex-wrap: wrap;
+        }
+        .carrousel__articles___post .carrousel__articles___item__img {
+            height: 17vh;
+        }
+        .edit__item___btn-container .edit__item___btn-content {
+            width: 20%;
+        }
+    }
+    /*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/

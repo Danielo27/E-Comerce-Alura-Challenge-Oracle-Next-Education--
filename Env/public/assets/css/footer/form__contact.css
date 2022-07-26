@@ -1,0 +1,104 @@
+.div__footer {
+    background: var(--background-third);
+    padding: 1rem;
+}
+
+.div__footer___information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.div__footer___contact a {
+    color: var(--secondary-color);
+    display: list-item;
+    list-style: none;
+    text-decoration: none;
+    margin: 1em;
+}
+
+.div__footer___contact a:hover {
+    color: var(--primary-color);
+}
+
+.div__footer___content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div__footer___form {
+    margin: 1rem;
+}
+
+.div__footer___content,
+.div__footer___form {
+    width: 50%;
+    margin: 1rem;
+}
+
+.div__footer___input {
+    background: var(--background-primary);
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 5px;
+    margin: 1rem 0 1rem 0;
+    padding: .27rem;
+    width: 100%;
+}
+
+.div__footer___input label {
+    color: var(--secondary-color);
+    width: 100%;
+}
+
+.div__footer___input input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.div__footer___input textarea {
+    border: none;
+    outline: none;
+    height: 10vh;
+    resize: none;
+    width: 100%;
+}
+
+
+/*Responsive Desing*/
+
+
+/*Tablet or Ipad*/
+
+@media (max-width: 820px) {
+    .div__footer___content {
+        display: block;
+    }
+    .div__footer___input textarea {
+        height: 6vh;
+    }
+    .div__footer___input {
+        margin: .75rem 0 .75rem 0;
+    }
+    .div__footer___form {
+        margin: none;
+    }
+}
+
+
+/*Iphone or Smartphone*/
+
+@media (max-width:500px) {
+    .div__footer___information {
+        flex-direction: column;
+        margin: 0%;
+        width: 100%;
+    }
+    .div__footer___content,
+    .div__footer___form {
+        width: 100%;
+        margin: 0%;
+    }
+}

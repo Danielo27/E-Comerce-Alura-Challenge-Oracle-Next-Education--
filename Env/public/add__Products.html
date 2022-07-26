@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es-Co">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header/header.css">
+    <link rel="stylesheet" href="./assets/css/main/add__products.css">
+    <link rel="stylesheet" href="./assets/css/footer/form__contact.css">
+    <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+    <!---Header--->
+    <header class="container">
+        <nav class="container___nav">
+            <p class="container__nav___logo">
+                <img src="./assets/img/control.svg" alt="logo-alura-geek"> Digital<span>Quality</span>
+            </p>
+            <div class="container__nav___searchInput">
+                <input class="nav__searchInput___input" type="text" placeholder="¿Que deseas Buscar?" name="search">
+                <a id="btnSearch" class="nav__searchInput___submit"><img src="./assets/img/search.svg" alt="search-icon"></a>
+            </div>
+            <a href="./crud.html" class="btn btn-adm btn-primary">Menu Admistrador</a>
+        </nav>
+    </header>
+    <!---Main section-->
+    <main>
+        <section class="container-full">
+            <div class="section__add-Products">
+                <h2>Agregar Nuevo Producto</h2>
+                <input type="file" value="Ingrese Archivo" name="imagen" id="image">
+                <!--<div class="div__footer___input">
+                    <label for="name">URL de Imagen</label>
+                    <input class="input__verification" type="text" id="img__product" required>
+                </div>-->
+                <div class="div__footer___input">
+                    <label for="name">Categoria</label>
+                    <input class="input__verification" type="text" id="category__product" required>
+                </div>
+                <div class="div__footer___input">
+                    <label for="name">Nombre del Producto</label>
+                    <input class="input__verification" type="text" id="name__product" required>
+                </div>
+                <div class="div__footer___input">
+                    <label for="name">Precio del Producto</label>
+                    <input class="input__verification" type="text" id="price__product" required>
+                </div>
+                <div class="div__footer___input">
+                    <label for="message">Descripcion del Producto </label>
+                    <textarea class="input__verification" id="description__product" required></textarea>
+                </div>
+                <button class="btn btn-secondary section__add-Products___button" id="add__products">Agregar Producto</button>
+            </div>
+        </section>
+    </main>
+    <!---Footer--->
+    <footer class="container-full">
+        <div class="div__footer">
+            <div class="div__footer___information">
+                <div class="div__footer___content">
+                    <p class="container__nav___logo">
+                        <img src="./assets/img/control.svg" alt="logo-alura-geek"> Digital<span>Quality</span>
+                    </p>
+                    <div class="div__footer___contact">
+                        <a href="">Quienes Somos</a>
+                        <a href="">Politicas de Privacidad</a>
+                        <a href="">Programa de Fidelidad</a>
+                        <a href="">Nuestras Tiendas</a>
+                        <a href="">Quiero ser franquiciado</a>
+                        <a href="">Anuncie Aqui</a>
+                    </div>
+                </div>
+                <div class="div__footer___form">
+                    <h3>Hable con nosotros</h3>
+                    <div class="div__footer___input">
+                        <label for="name">Nombre </label>
+                        <input class="input__verification" type="text" name="name" required>
+                    </div>
+                    <div class="div__footer___input">
+                        <label for="message">Escribe Tu Mensaje </label>
+                        <textarea class="input__verification" name="message" required></textarea>
+                    </div>
+                    <button class="btn btn-secondary" id="formContactSubmit">Enviar</button>
+                </div>
+            </div>
+        </div>
+        <div class="div__footer___copyright">
+            <p>Desarrollado por Daniel Quintero Henriquez</p>
+            <small>
+                Todos los derechos reservados 2022
+            </small>
+        </div>
+    </footer>
+    <script src="./lib/validateForm.js"></script>
+    <script src="./lib/uuid.min.js"></script>
+    <script type="module" src="./Controllers/addProductsController.js"></script>
+    <script type="module" src="./Controllers/formContactController.js"></script>
+</body>
+<!--/*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/-->
+
+</html>

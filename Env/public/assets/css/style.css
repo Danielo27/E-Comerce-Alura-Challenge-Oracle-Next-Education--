@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@300&display=swap');
+
+/*
+Default Styles
+:root {
+    --primary-color: #2A7AE4;
+    --secondary-color: #464646;
+    --background-primary: #FFFFFF;
+    --background-secondary: #F5F5F5;
+    --background-third: #EAF2FD;
+    --border-color: #C8C8C8;
+}*/
+
+
+/*my styles*/
+
+:root {
+    --primary-color: #21A8C1;
+    --secondary-color: #577C82;
+    --background-primary: #FFFFFF;
+    --background-secondary: #F5F5F5;
+    --background-third: #CEE3E7;
+    --border-color: #C8C8C8;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Nokora', sans-serif;
+    transition: all .37s ease;
+}
+
+main {
+    background: var(--background-secondary);
+}
+
+
+/*components*/
+
+.container {
+    margin: auto;
+    width: 98%;
+}
+
+.container-full {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+
+
+/*buttons*/
+
+.btn {
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    height: 7vh;
+    justify-content: center;
+    outline: none;
+    text-decoration: none;
+    width: 10rem;
+}
+
+.btn-primary {
+    background: var(--background-primary);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-secondary {
+    background: var(--primary-color);
+    color: var(--background-primary);
+}
+
+.btn-primary:hover {
+    background: var(--primary-color);
+    color: var(--background-primary);
+}
+
+.btn-secondary:hover {
+    background: var(--background-primary);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+
+/*Responsive Desing*/
+
+
+/*Tablet or Ipad*/
+
+@media (max-width: 820px) {
+    .btn {
+        width: 9rem;
+        height: 4vh;
+    }
+}
+
+
+/*Iphone or Smartphone*/
+
+@media(max-width:500px) {
+    .btn {
+        width: 37%;
+        height: 7vh;
+    }
+}
+
+
+/*
+  Daniel Quintero Henriquez
+  Challenge Alura Latam
+  Oracle One Next Education*/

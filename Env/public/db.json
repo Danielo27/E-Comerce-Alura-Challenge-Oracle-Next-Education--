@@ -1,0 +1,181 @@
+{
+  "generos": [
+    "consolas",
+    "juegos",
+    "accesorios"
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "correo": "admin@correo.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "correo": "danielquinterohenriquez@correo.com",
+      "password": "1234"
+    }
+  ],
+  "articulos": [
+    {
+      "id": "cc09e286-ccf2-46f8-97cf-38891f38fcc7",
+      "name": "Audifonos Gamer",
+      "price": "31.200",
+      "description": "¡Experimenta la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los Redragon Ares no te pierdes ningún detalle y escuchas el audio tal y como fue diseñado por los creadores.",
+      "genres": "accesorios",
+      "image": "assets/img/audifonos.jpg"
+    },
+    {
+      "id": "e6d95857-86b8-4e4c-9cba-fa305947f7db",
+      "name": "Play Station 4",
+      "price": "1.500.000",
+      "description": "Almacena tus juegos, aplicaciones, capturas de pantalla y videos en hasta 1 TB de almacenamiento en la consola PS4: más delgada y ligera que el modelo PS4 original y disponible en Jet Black y más colores.",
+      "genres": "consolas",
+      "image": "assets/img/ps4.jpg"
+    },
+    {
+      "id": "262acc6b-c69a-4105-a0e9-ee0c991dd314",
+      "name": "Call Of Duty",
+      "price": "115.000",
+      "description": "Regresa la mayor serie de videojuegos de acción de todos los tiempos. Call of Duty®: Black Ops es una experiencia de entretenimiento que te transportará a conflictos de todo el mundo junto a las fuerzas especiales de élite que participaron en operaciones encubiertas y guerras secretas durante la Guerra Fría. ",
+      "genres": "juegos",
+      "image": "assets/img/callOfDuty.jpg"
+    },
+    {
+      "id": "589d96c1-4946-4a92-97c7-31a317027d83",
+      "name": "Pc Gamer",
+      "price": "5.000000",
+      "description": "TORRE Computador GAMER con Procesador AMD Ryzen 5 5600 con 6 núcleos / 12 Hilos .",
+      "genres": "accesorios",
+      "image": "assets/img/pcGamer.jpg"
+    },
+    {
+      "id": "64437ecf-917e-4ddf-b25a-6b187afbd444",
+      "name": "Street Figther",
+      "price": "100.000",
+      "description": "Street Fighter es una serie de videojuegos de lucha creada por la empresa japonesa Capcom. El primer título, Street Fighter, apareció en el año 1987 en Arcade y gozó de cierta popularidad.",
+      "genres": "juegos",
+      "image": "assets/img/streetFigther.jpeg"
+    },
+    {
+      "id": "f65ea4c7-063a-46ef-b46a-de24aa07c8ac",
+      "name": "Xbox-Serie X",
+      "price": "3.200.000",
+      "description": "Con tu consola Xbox Series tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.\n\nLa nueva generación de consolas está comandada por la Xbox Series que llegó al mercado para sorprender a todos. Su potencia y alto rendimiento te permitirá reducir las horas de descarga de juegos y contenido de manera considerable en comparación con otras consolas. Además, vas a poder jugar durante horas mientras te diviertes con jugadores de todo el mundo.\n",
+      "genres": "consolas",
+      "image": "assets/img/xbox.jpg"
+    },
+    {
+      "id": "c5f33733-b489-4b2b-8d01-39d2b137a312",
+      "name": "Play Station Portatil",
+      "price": "1.200.000",
+      "description": "Con tu consola PS Vita tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.\n\nAdaptada a tus necesidades\nAl contar con un procesador de 4 núcleos y uno gráfico, brinda una experiencia dinámica, respuestas ágiles, y transiciones fluidas de imágenes en alta definición.\n\nVas a poder reproducir música, ver tus películas y series favoritas a través de las aplicaciones descargables.",
+      "genres": "consolas",
+      "image": "assets/img/psp.jpeg"
+    },
+    {
+      "id": "7061c02b-1dec-4a29-a22b-f0eb486caba9",
+      "name": "Teclado Gamer",
+      "price": "110.000",
+      "description": "Distinción a todo color\nSu retroiluminación da un toque diferente a tu equipo y resalta su composición cuando es utilizado en espacios poco iluminados.\n\nTecnología antighosting\nEste dispositivo tiene teclas antighosting. Esta cualidad es indispensable si requieres de un uso intensivo del periférico. Gracias a esto podrás evitar fallas al tocar varias teclas al mismo tiempo.",
+      "genres": "accesorios",
+      "image": "assets/img/teclado.jpg"
+    },
+    {
+      "id": "354353e7-bf28-482a-aea0-02b3926a3f97",
+      "name": "Minion Rush",
+      "price": "12",
+      "description": "MI VILLANO FAVORITO: Minion Rush!.",
+      "genres": "juegos",
+      "image": "assets/img/minionRush.jpg"
+    },
+    {
+      "id": "478c3d97-3b8e-435d-b992-e105471c8287",
+      "name": "Nintendo Switch",
+      "price": "1.400.000",
+      "description": "Nintendo considera a Switch una consola híbrida. Se puede utilizar como consola de sobremesa con la unidad principal insertada en una estación de acoplamiento para conectarla con un televisor. Alternativamente, puede ser extraída de la base y utilizada de forma similar a una tableta a través de su pantalla táctil, o colocada sobre una superficie gracias a su soporte plástico integrado siendo así visible por varios jugadores.\n\nLa Switch utiliza dos controladores inalámbricos llamados en conjunto Joy-Con, que incluyen cuatro botones de acción estándar y un joystick direccional, así como sensores para la detección de movimiento y retroalimentación táctil de alta definición, aunque se diferencian en algunos botones y características adicionales. Dos Joy-Con pueden conectarse uno a cada lado de la consola para usarse como consola portátil, conectarse al accesorio Grip proporcionado junto a la consola para usarlos como un mando más tradicional, o ser utilizados individualmente en la mano como el mando Wii, y de esta forma usarse con juegos multijugador locales. También puede utilizar ciertos controles inalámbricos y/o alámbricos que no incluye la consola, adoptado como Pro Controller, que incluyen las mismas características que los mandos tradicionales a excepción de que este incluye detección NFC para Amiibo y vibración HD.",
+      "genres": "consolas",
+      "image": "assets/img/switch.jpg"
+    },
+    {
+      "id": "3de50ad2-86e1-4456-a0b8-64691dfd47e1",
+      "name": "Nintendo DS",
+      "price": "1.200.000",
+      "description": "El controlador de vídeo realizaba las siguientes operaciones 3D por hardware: transform and lighting, transformación textura-coordenada 3D, síntesis de textura, alpha blending, antialiasing, Cel shading, y z-buffering. Sin embargo usa filtrado de textura (nearest neighbor) haciendo que algunos títulos se vean pixelados.\n\nEl sistema teóricamente puede generar alrededor de 120.000 triángulos por segundo a 60 cuadros por segundo. A diferencia de la mayoría del hardware 3D, tiene un límite de unos en el número de triángulos que puede dibujar en una sola escena (unos 6144 vértices, o sea 2048 triángulos). El hardware 3D está diseñado para dibujar una sola pantalla por vez, o sea que para cuando se dibujan imágenes 3D diferentes en ambas pantallas la velocidad disminuye notablemente.\n\nLa DS está generalmente más limitada por la cantidad de polígonos que por la velocidad de refresco. Posee una memoria de texturas de 132 KB por pantalla y un tamaño máximo de textura de 1024x1024 píxeles. La consola Nintendo DS cuenta 4 MB de RAM. Además de que cuenta con un procesador de doble núcleo, 67 MHz (el núcleo principal) y 33 MHz (el núcleo secundario).",
+      "genres": "consolas",
+      "image": "assets/img/nds.jpg"
+    },
+    {
+      "id": "bcf8a4b1-8f01-4e4e-940a-22d058f79e37",
+      "name": "Play station 3",
+      "price": " 889.990",
+      "description": "Con tu consola PlayStation 3 tendrás entretenimiento asegurado todos los días. Su tecnología fue creada para poner nuevos retos tanto a jugadores principiantes como expertos.\n\nNo solo vas a poder descargar los mejores videojuegos y navegar en la web sin límite, sino que, gracias a su interconectividad global, también vas a tener la posibilidad de competir en línea con tus amigos y con personas de todas partes del mundo disfrutando de aventuras inolvidables.\n\nNo solo esto, el control DualShock combina funciones revolucionarias y sin precedentes mientras conserva precisión, comodidad y exactitud en cada movimiento.\n\nAdaptada a tus necesidades\nGuarda tus apps, fotos, videos y mucho más en el disco duro, que cuenta con una capacidad de 500 GB.\nPor otro lado, tiene puerto USB y salida HDMI, que permiten conectar accesorios y cargar la batería de tu control mientras juegas.",
+      "genres": "consolas",
+      "image": "assets/img/ps3.jpg"
+    },
+    {
+      "id": "72be51f4-64ed-4b32-a474-8c1d0614bfc6",
+      "name": "Xbox 360",
+      "price": "880.000",
+      "description": "XBOX 360 ULTRA SLIM E 5.0 CON 2 CONTROLES INALAMBRICOS ORIGINALES + DISCO DURO DE 500 donde te obsequio MUCHOS REGALOS JUGABLES (120 mas Retro compatibilidad) o ESCOGIDOS AL GUSTO. + 2 Carga y Juega + *obsequios.\n\nQue se entrega con la compra?\n\n-Consola Xbox 360 Ultra Slim E Negra en perfecto estado.\n\n-Disco Duro de 500 Gigas donde te obsequio MUCHOS REGALOS JUGABLES (120 mas Retro compatibilidad) o ESCOGIDOS AL GUSTO.\n\n-2 Controles inalámbricos originales en perfecto estado.\n\n-2 Carga Y Juega (Baterías recargables mas sus respectivos cables). También se tiene la opción de escoger pilas AA recargables, 2 pares con su respectivo cargador de Pared (Ver Ultima Imagen.)",
+      "genres": "consolas",
+      "image": "assets/img/61oFqsoj9nL._SL1000_.jpg"
+    },
+    {
+      "id": "1fc2c32f-6de6-443b-b5bd-8d39f2b7fd3b",
+      "name": "clash of royale",
+      "price": "0",
+      "description": "Clash Royale, también conocido por su abreviatura CR, es un videojuego de estrategia en línea para dispositivos móviles, creado por la compañía finlandesa Supercell.​ Fue lanzado globalmente el 2 de marzo de 2016.​ Es un videojuego freemium de estrategia en tiempo real basado en los personajes de Clash of Clans.",
+      "genres": "juegos",
+      "image": "assets/img/clashRoyale.jpg"
+    },
+    {
+      "id": "13d89d60-8c6c-47bb-9c66-b8408ff6df36",
+      "name": "Fornite",
+      "price": "0",
+      "description": "Fortnite es un videojuego del año 2017 desarrollado por la empresa Epic Games, lanzado como diferentes paquetes de software que presentan diferentes modos de juego, pero que comparten el mismo motor de juego y mecánicas. Fue anunciado en los Spike Video Game Awards en 2011",
+      "genres": "juegos",
+      "image": "assets/img/fornite.jpg"
+    },
+    {
+      "id": "129eec9e-b950-4c4c-b999-8309caef45dc",
+      "name": "Halo Infinite",
+      "price": "0",
+      "description": "Halo Infinite es un videojuego de disparos en primera persona de la franquicia de videojuegos de ciencia ficción creada por Bungie Studios y actualmente desarrollada por 343 Industries. Es exclusivo para las plataformas Xbox One, Microsoft Windows y Xbox Series X|S",
+      "genres": "juegos",
+      "image": "assets/img/haloInfinite.jpg"
+    },
+    {
+      "id": "673c0ea6-76d1-485f-a3a6-6dba65d3e799",
+      "name": "OverWatch",
+      "price": "0",
+      "description": "Overwatch es un videojuego de disparos en primera persona multijugador, desarrollado por Blizzard Entertainment. Fue lanzado al público el 24 de mayo del 2016, para las plataformas PlayStation 4, Xbox One y Microsoft Windows; posteriormente fue lanzado para Nintendo Switch",
+      "genres": "juegos",
+      "image": "assets/img/overWatch.jpeg"
+    },
+    {
+      "id": "8de07078-026f-44ea-8bec-bf18b990fa0a",
+      "name": "Silla Gamer",
+      "price": "1.200.000",
+      "description": "La selección de una silla adecuada es muy importante para prevenir futuras lesiones. Con esta silla Urban Design, tendrás la comodidad y el bienestar que necesitas a lo largo de tu jornada. Además, puedes ubicarla en cualquier parte de tu casa u oficina ya que su diseño se adapta a múltiples entornos. ¡Dale a tus espacios un toque más moderno!\n\nJuega sin límites\nDiseñada para quienes pasan muchas horas frente a la computadora. El asiento y el respaldo se adaptan a tus diferentes posiciones a lo largo del juego. Disfruta sin descuidar las zonas lumbar, dorsal y cervical.\n\nErgonómica y confiable\nEs muy común que adoptes una mala postura al sentarte y eso sin duda trae una serie de patologías que repercuten directamente en tu bienestar. Esta silla ergonómica es la indicada para quienes pasan mucho tiempo frente al escritorio, ya sea por trabajo o estudio, ya que su diseño se adapta a las formas del cuerpo y garantiza un reparto de presiones equilibrado. Crea un ambiente de trabajo sano y productivo.\n\nComodidad en todo momento\nSu respaldo reclinable te permite regular los diferentes puntos de inclinación, así como dejarlo en posición libre para el balanceo durante las pausas o descansos.",
+      "genres": "accesorios",
+      "image": "assets/img/silla.jpg"
+    },
+    {
+      "id": "fb58b8a5-b8a3-4c60-8b84-edf4a2437ead",
+      "name": "Mause Gamer",
+      "price": "30.000",
+      "description": "Con más de 20 años de experiencia en fabricación de productos, Redragon innova día a día en diseño y calidad. Su objetivo es producir equipamiento de alta gama para jugadores, con excelentes prestaciones y a un precio accesible. Los mouses Redragon son adecuados para todas las ocasiones, ya sea para entretenerse en el hogar o usarlo en el trabajo. Experimenta el diseño cómodo y elegante de este dispositivo.\n\nAdaptado a tus movimientos\nEl mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas. Su conectividad y sensor suave ayudará a que te desplaces rápido por la pantalla.",
+      "genres": "accesorios",
+      "image": "assets/img/mause.jpg"
+    },
+    {
+      "id": "f55d549c-e698-49a3-ba85-282facc0d24d",
+      "name": "Mini Portatil",
+      "price": "2.000.000",
+      "description": "1. Portátil portátil: pantalla de 13,3 pulgadas de proporción áurea, oficina de negocios, compacta y portátil\n. Operación de alta velocidad: admite memoria de expansión SSD, memoria de ejecución 6G, afluente y no\natascado. Material: material ABS, ligero, no voluminoso, rico en interfaces, gran capacidad de la batería, batería de larga\nduración. Gran memoria de ancho de banda alto: ejecute sus juegos y aplicaciones de edición de fotos y videos sin problemas, así como múltiples pestañas de programa y navegador simultáneamente.\n5. Adecuación: puede llevar este PC a cualquier parte, adecuado para negocios, estudiantes y uso diario.",
+      "genres": "accesorios",
+      "image": "assets/img/miniPortatil.jpg"
+    }
+  ]
+}
