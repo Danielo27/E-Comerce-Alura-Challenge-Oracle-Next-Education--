@@ -1,5 +1,7 @@
 ### E-Comerce - Programa One Oracle Next Education
 
+# <img src="https://raw.githubusercontent.com/Danielo27/E-Comerce-Alura-Challenge-Oracle-Next-Education--/main/cms_files_10224_1650485464insignia.png" alt="insignia alura" type="image/png" width=70 height=70 />E-Comerce-Alura-Challenge-Oracle-Next-Education-
+
 ## Requisitos:
 
 - NodeJS
