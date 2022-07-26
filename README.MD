@@ -17,9 +17,9 @@ para este challenge se realizaron las pruebas sobre json-server para simular una
 
 se uso tambien la api de uuid para crear los id de cada registro que se creara en el servidor.
 
-Datos para iniciar sesion:smile:
-correo:admin@correo.com
-password":123
+### Datos para iniciar sesion:smile:
+- correo: admin@correo.com
+- password: 123
 
 
 ```
