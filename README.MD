@@ -13,6 +13,10 @@
 
 :v: Los invito a dar un vistazo a esta demostracion del repositorio y no se olviden escribir cualquier duda o comentario; para ver como funciona este proyecto puedes clonarlo en un repositorio local e iniciar en windows el archivo bat o escribir los siguientes comandos en cmd.
 
+para este challenge se realizaron las pruebas sobre json-server para simular una base de datos para recibir los datos que se mostrarian en el FrontEnd tambien se uso el servidor xpress de NodeJs para simular las peticiones al servidor como por ejemplo subir imagenes.
+
+se uso la api de uuid para crear los id de cada registro que se creara en el servidor.
+
 ```
 cd (Ruta del Proyecto)/Env/
 npm install
