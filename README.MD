@@ -1,8 +1,25 @@
 ### E-Comerce - Programa One Oracle Next Education
 
-:v: Los invito a dar un vistazo a esta demostracion del repositorio y no se olviden escribir cualquier duda o comentario.
+## Requisitos:
 
-## [Demo](https://danielo27.github.io/E-Comerce-Alura-Challenge-Oracle-Next-Education--/)
+- NodeJS
+    
+## Modulos requeridos:
+
+- Multer
+- Xpress
+- json-server
+- nodemon
+
+:v: Los invito a dar un vistazo a esta demostracion del repositorio y no se olviden escribir cualquier duda o comentario; para ver como funciona este proyecto puedes clonarlo en un repositorio local e iniciar en windows el archivo bat o escribir los siguientes comandos en cmd.
+
+```
+cd (Ruta del Proyecto)/Env/
+npm install
+npm start
+```
+
+## [Demo FrontEnd](https://danielo27.github.io/E-Comerce-Alura-Challenge-Oracle-Next-Education--/)
 
 ## :smiley: Hola A Todos
 
